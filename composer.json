@@ -1,0 +1,21 @@
+{
+    "name": "sarju/json_response",
+    "description": "A simple class that returns a properly formatted json with http response",
+    "keywords": ["Json", "API Response Class", "PHP"],
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Devscreencast\\ResponseClass\\":"src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Sarju",
+            "email": "sarju.rtknits@gmail.com"
+        }
+    ],
+    "require": {
+        "php" : ">=5.3.0"
+    }
+}
